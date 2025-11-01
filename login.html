@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkyStop | Home</title>
+    <title>SkyStop | login</title>
 </head>
 <body>
     <div id="general">
@@ -12,13 +12,13 @@
                 <div class="logo">
                     <img src="#" alt="logo">
                 </div>
-
+                
                 <div class="menu">
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="index.html">Home</a>
                             <a href="#">Sobre</a>
-                            <a href="login.html">Fazer login</a>
+                            <a href="#">Fazer login</a>
                             <a href="cadastro.html">Cadastre-se</a>
                         </li>
                     </ul>
@@ -29,7 +29,25 @@
             </div>
         </div>
         <div id="content">
-            <h1>Welcome</h1>
+            <h1>Entrar</h1>
+
+            <form name="cadastro" method="post" action="#">
+                <div>
+                    <label>
+                        <strong>Email</strong>
+                        <input type="email" name="email" placeholder="Email">
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <strong>Senha</strong>
+                        <input type="password" name="password" placeholder="Senha" />
+                    </label>
+                </div>
+
+                <input type="submit" value="Login" />
+            </form>
         </div>
         <div id="footer">
 
