@@ -17,7 +17,6 @@
                     <ul>
                         <li>
                             <a href="index.html">Home</a>
-                            <a href="#">Sobre</a>
                             <a href="login.html">Fazer login</a>
                             <a href="#">Cadastre-se</a>
                         </li>
@@ -32,33 +31,45 @@
             <h1>Cadastre-se</h1>
 
             <form name="cadastro" method="post" action="#">
-                <label>
-                    <strong>Nome</strong>
-                    <input type="text" name="name" placeholder="Nome">
-                </label><br />
+                <div>
+                    <label>
+                        <strong>Nome</strong>
+                        <input type="text" name="name" placeholder="Nome">
+                    </label>
+                </div>
 
-                <label>
-                    <strong>Email</strong>
-                    <input type="email" name="email" placeholder="Email">
-                </label><br />
-                
-                <label for="opt-cliente">Cliente
-                    <input type="radio" name="user" id="opt-cliente" value="cliente" />
-                </label><br />
-                
-                <label for="opt-motorista">Motorista
-                    <input type="radio" name="user" id="opt-motorista" value="motorista" />
-                </label><br />
+                <div>
+                    <label>
+                        <strong>Email</strong>
+                        <input type="email" name="email" placeholder="Email">
+                    </label>
+                </div>
 
-                <label>
-                    <strong>Senha</strong>
-                    <input type="password" name="password" placeholder="Senha" />
-                </label><br />
+                <div>
+                    <label for="opt-cliente">Cliente
+                        <input type="radio" name="user" id="opt-cliente" value="cliente" />
+                    </label>
+                </div>
 
-                <label>
-                    <strong>Confirmar senha</strong>
-                    <input type="password" name="password" placeholder="Senha" />
-                </label>
+                <div>
+                    <label for="opt-motorista">Motorista
+                        <input type="radio" name="user" id="opt-motorista" value="motorista" />
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <strong>Senha</strong>
+                        <input type="password" name="password" placeholder="Senha" />
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <strong>Confirmar senha</strong>
+                        <input type="password" name="password" placeholder="Senha" />
+                    </label>
+                </div>
 
                 <input type="submit" value="Cadastrar" />
             </form>
